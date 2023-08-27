@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+
+.navbar{
+    position: sticky;
+    background-color: #0C123F;
+    z-index: 999999;
+}
+
+.navbar a{
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navbar a:hover{
+    color: #D6D6D6;
+}
+
+#navbarNav{
+    justify-content: end;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+
+.navbar-toggler{
+    color: white;
+    background-color: white !important;
+
+}
+
+/* Hero */
+
+.hero{
+    background-image: url("../img/bg_web.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero h1{
+    font-family: montserrat, sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.hero p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: montserrat, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.btn{
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+
+}
+
+/*Features*/
+
+.edu_contain{
+    background-color: #2A2A2A;
+    border-radius: 30px;
+}
+
+#featured-4{
+    margin-top: -70px;
+}
+
+#featured-3 h2{
+    color: black;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+}
+
+#featured-3 h3{
+    color: black;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#featured-3 h5{
+    color: black;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#featured-3 p{
+    color: black;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+#featured-4 h2{
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+}
+
+#featured-4 h3{
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+#featured-4 h5{
+    color: rgb(255, 255, 255);
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#featured-4 p{
+    color: white;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*Portafolio*/
+
+.portafolio{
+    margin-top: 90px;
+}
